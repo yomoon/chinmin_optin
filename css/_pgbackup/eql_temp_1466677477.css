@@ -1,0 +1,325 @@
+
+
+/* EQL Template_last updated 2016-06-22 */
+
+html, body {
+	font-family: 'Palanquin', sans-serif;
+}
+
+
+.nav_spec {
+	min-height:70px;
+	margin-bottom:0px;
+	border:0 none;
+	background:#333;
+	display:block;
+	width:100%;
+}
+.navbar-inverse .navbar-toggle {
+	border:0 none;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover { 
+    background:none;
+	font-weight:bold;
+}
+
+.fixed-strip.affix {
+	top: 0;
+}
+.fixed-strip {
+	position: fixed;
+	top: -100px;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+} 
+
+.fix_drop {
+	padding:18px;
+}
+
+.fix_link {
+	padding:0px 10px;
+}
+.navbar {
+	border-radius:0px;
+}
+.navbar-brand {
+	height:70px;
+}
+.navbar-nav > li > a {
+	line-height:40px;
+}
+
+.btn_order {
+	margin-left:12px;
+	margin-top:18px;
+}
+
+@media (max-width:768px){
+	.navbar-nav > li > a {
+		line-height:20px;
+	}
+}
+
+@media (max-width:552px){
+	.navbar-brand {
+		  width:70%;
+		  margin-top:4px;
+	  }
+}
+
+/* Banner carousel-----------------------------------------------------------*/
+
+    .carousel-fade .carousel-inner .item{  
+        opacity:0;  
+        -webkit-transition-property:opacity ;  
+        -moz-transition-property:opacity ;  
+        -ms-transition-property:opacity ;  
+        -o-transition-property:opacity ;  
+        transition-property:opacity ;
+    }
+    .carousel-fade .carousel-inner .active{  
+        opacity: 1;
+    }
+    .carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{  
+        left: 0;  
+        opacity: 0;
+    }
+    .carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right {
+        opacity: 1;
+    }
+	
+	.carousel-inner img {
+		min-width:100%;
+		max-height:100%;
+	}
+	
+	@media (max-width:768px){
+		.carousel-inner {
+			min-height:440px;
+			display:block;
+		}
+		.carousel-inner img {
+			min-height:440px;
+			min-width:900px;
+			overflow:hidden;
+			margin-left:-10%;
+		}
+	}
+	
+	@media (max-width:552px){
+		.carousel-inner img {
+			margin-left:-50%;
+		}
+	}
+	
+
+.carousel-control.left {
+	background:url(../images/arrow_left.png) center no-repeat !important;
+}
+
+.carousel-control.right {
+	background:url(../images/arrow_right.png) center no-repeat !important;
+}
+
+
+/* Button Style-----------------------------------------------------------*/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 14px;
+		padding: 8px 20px;
+		background: #00C0F3;
+		letter-spacing: 2px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 16px;
+		color: #fff;
+		border-radius: 3px;
+		-webkit-transition: background .3s ease-in-out;
+		-moz-transition: background .3s ease-in-out;
+		transition: background .3s ease-in-out;
+	}
+	
+	.button:before
+	{
+	}
+	
+	.button:hover
+	{
+		background: #0090F3;
+		color:#fff;
+	}
+	
+	a:hover{ text-decoration:none; }
+	
+	
+	
+	
+	
+	
+	
+	/* Footer-----------------------------------------------------------*/
+	
+	
+	  .content_nopad
+	  {
+		  width: 100%;
+		  z-index: 100;
+		  position: relative;
+		  padding-bottom:50px;
+	  }
+	  
+	  .bg_deepocean
+	  {
+		  background-color: #333 !important;
+	  }
+	  
+	  
+	  .footer_1-1
+	  {
+		  padding-top: 60px;
+		  padding-bottom: 20px;
+	  }
+	  
+	  .footer_1-1 h2, .footer_1-1 h4, .footer_1-1 .lead, .footer_1-1 li
+	  {
+		  color: #fff;
+	  }
+	  
+	  .footer_1-1 .brand-img
+	  {
+		  width: 200px;
+		  margin-bottom: 30px;
+	  }
+	  
+	  .footer_1-1 h4
+	  {
+		  margin-bottom: 20px;
+	  }
+	  
+	  .footer_1-1 ul
+	  {
+		  list-style-type: none;
+		  margin: 0 0 26px;
+		  padding: 0;
+	  }
+	  
+	  .footer_1-1 ul li
+	  {
+		  border-top: 1px solid #555;
+		  line-height: 19px;
+		  padding: 6px 0;
+	  }
+	  
+	  .footer_1-1 ul li a {
+		  color:#999;
+	  }
+	  
+	  .footer_1-1 ul li a:hover {
+		  color:#00C0F3;
+	  }
+	  
+	  .footer_1-1 li:first-child
+	  {
+		  border-top: none;
+		  padding-top: 1px;
+	  }
+	  
+	  
+	  
+	  .footer_descript { 
+		  font-size:16px; 
+		  color:#999;
+		  }
+		  
+	  .footer_descript a {
+		  color:#00c0f3;
+	  }
+		  
+		  
+	  .snBtn {
+		  width:200px;
+		  margin-left:-50px;
+	  }
+	  
+	  .snBtn li {
+		  list-style:none;
+		  float:left;
+		  margin:0px 10px 0px 0px;
+		  border-top:0 none !important;
+		  padding:10px 0px !important;
+	  }
+	  
+	  .snBtn a > img {
+		  opacity:1.0;
+		  transition-timing-function:linear;
+		  transition:opacity linear 0.3s;
+	  }
+	  
+	  .snBtn a > img:hover{
+		  opacity:0.4;
+		  background-color: maroon #600;
+		  -webkit-transition:opacity 0.3s;
+		  -moz-transition:opacity 0.3s;
+		  -o-transition:opacity 0.3s; 
+	  }
+	  
+	  
+	  
+	  
+	/* Go Top button-----------------------------------------------------------*/	  
+	  
+	  
+	  #gotop {
+		  display: none;
+		  position: fixed;
+		  right: 40px;
+		  bottom: 40px;    
+		  padding: 10px 15px;    
+		  font-size: 20px;
+		  z-index:999;
+		  background: rgba(93,93,93,0.47);
+		  /*if IE*/
+		  background: #ccc \9;
+		  *background: #ccc;
+		  _background: #ccc;
+		  
+		  border:#ccc 1px solid;
+		  color: white;
+		  cursor: pointer;
+		  width:60px;
+		  height:60px;
+		  text-align:center;
+		  line-height:100%;
+		  font-size:16px;
+		  border-radius:10px;
+		  /*box-shadow:0px 0px 10px #ccc;*/
+		  
+			  -webkit-transition: background .3s ease-in-out;
+			  -moz-transition: background .3s ease-in-out;
+			  transition: background .3s ease-in-out;
+	  }
+	  
+	  #gotop:hover {
+		  background: rgba(39,39,39,0.80);
+		  /*if IE*/
+		  background: #333 \9;
+		  *background: #333;
+		  _background: #333;
+	  }
+	  
+	  @media (max-width:403px){
+		  #gotop {
+		  right: 20px;
+		  bottom: 20px;
+		  }
+	  }

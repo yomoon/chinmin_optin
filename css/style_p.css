@@ -1,0 +1,27 @@
+.TITLE_BG{
+		margin: 0;
+	  padding:0;
+	  margin: 0 auto;
+	 display: block;
+	 background-image: url("../images/img_deco.jpg");
+	 background-repeat: no-repeat;
+	 background-position:center ;
+	 background-size: cover;
+	 min-height: 200px;
+
+}
+
+.beadis_title{
+  margin-top: 3em;
+  padding-left:auto;
+  padding-right:auto;
+}
+
+.second_title{
+  margin-top: 3em;
+}
+
+.beadis_sub_title{
+  margin-bottom: 8em;
+
+}
